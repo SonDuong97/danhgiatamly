@@ -1,0 +1,27 @@
+#home-carousel {
+    background-image: url("../img/webBG.png") !important;
+}
+
+@media all and (min-width: 799px) {
+    .cta-box {
+        margin-top: 0;
+    }
+}
+
+figure.example {
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #dcdcdc;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row.required .control-label:after {
+    content:"*";
+    color:red;
+}

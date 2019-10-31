@@ -1,0 +1,47 @@
+.table > thead > tr > th, .table > thead > tr > th {
+    background-color: #4267b2 !important;
+}
+
+footer a {
+    color: #e94335 !important;
+}
+
+main#content {
+    overflow: initial;
+}
+
+.test-question-table th {
+    position: sticky;
+    z-index: 1;
+    top: 150px;
+}
+@media (max-width: 1024px) {
+    .test-question-table th {
+        top: 0;
+    }}
+.question-content {
+    font-weight: bold;
+}
+
+.question-content:hover {
+    color: #e94335;
+    transition-duration: 0.9s;
+}
+
+table input[type="radio"] {
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+table input[type="radio"]:hover {
+    -ms-transform: scale(1.7);
+    -webkit-transform: scale(1.7);
+    transform: scale(1.7);
+    transition-duration: 0.5s;
+}
+
+#sub-menu {
+    top: 80px !important;
+}

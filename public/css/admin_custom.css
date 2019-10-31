@@ -1,0 +1,15 @@
+.header-right {
+    text-align: left;
+    font-size: 14px;
+}
+
+.reverse-question  {
+    background-color: lightgrey;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #949292;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #0e0e0e;
+}
